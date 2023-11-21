@@ -7,7 +7,7 @@ import { links } from "../../../data";
 
 const Nav = () => {
   return (
-    <nav className="fixed right-0 shadow-sm bg-white w-screen px-8 py-6 z-50 flex items-center justify-between md:px-10 lg:w-full  xl:justify-evenly">
+    <nav className="fixed right-0 w-full shadow-sm bg-white px-2 py-6 z-50 flex items-center justify-between md:px-10 xl:justify-evenly">
       <div className="flex items-center space-x-10">
         {/* Logo and Text */}
         <div className="logo-text flex items-center">

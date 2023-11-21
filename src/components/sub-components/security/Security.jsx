@@ -4,8 +4,8 @@ import right from "../../../assets/security/ArrowRight.svg";
 
 const Security = () => {
   return (
-    <section className="py-10 flex items-center justify-center">
-      <div className="flex items-center py-20 space-x-10">
+    <section className="py-10 flex  items-center justify-center">
+      <div className="flex flex-col items-center py-20 space-y-8 lg:space-y-0 lg:space-x-10 lg:flex-row">
         <div className="img">
           <img src={shield} alt="shield done" />
         </div>
@@ -19,7 +19,7 @@ const Security = () => {
             information is completely protected from fraud.
           </p>
           <div className="">
-            <a href="#" className="flex items-center text-xl space-x-2">
+            <a href="#" className="flex items-center text-xl space-x-2 md:justify-center lg:justify-start">
               <span className="text-blue-600 ">Learn more</span>
               <span className="relative top-0.5">
                 <img src={right} alt="arrow right" />

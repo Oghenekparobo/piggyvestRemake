@@ -6,8 +6,8 @@ const Card = () => {
       {savingsList.map((savings, index) => (
         <div
           key={index}
-          className="bg-custom3 card flex flex-col justify-between h-[394px] w-[406px] w-50 p-8 rounded-2xl"
-        >
+          className="bg-custom3 card flex flex-col justify-between  w-50 p-8 rounded-2xl  max-w-[406px] mx-auto"
+        > 
           <div className="up flex flex-col space-y-4">
             <img
               src={savings.icon}

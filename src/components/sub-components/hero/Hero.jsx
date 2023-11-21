@@ -5,7 +5,7 @@ import Image from "./Image";
 
 const Hero = () => {
   return (
-    <section className="mt-36 flex flex-col justify-center items-center lg:justify-evenly lg:flex-row">
+    <section className="mt-36 flex flex-col justify-center items-center lg:justify-between lg:flex-row">
       {/* content */}
       <div className="content flex flex-col justify-center space-y-8">
         <h1 className="text-custom max-w-md font-bold text-2xl md:text-5xl lg:text-6xl">

@@ -1,11 +1,12 @@
 import React from "react";
 import arrowCircle from "../../../assets/saver/arrowcircle.svg";
+
 const Saver = () => {
   return (
     <section className="py-20">
-      <div className="grid grid-cols-2">
-        <div className="content bg-custom5 p-28 flex flex-col space-y-6">
-          <h1 className="text-white font-bold text-5xl max-w-md">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
+        <div className="content bg-custom5 p-14 flex flex-col space-y-6 justify-center items-center lg:items-start lg:justify-start lg:p-28 w-full">
+          <h1 className="text-white font-bold max-w-md text-center text-5xl lg:text-start">
             Meet the saver of the month
           </h1>
           <p className="max-w-md text-white">
@@ -21,7 +22,7 @@ const Saver = () => {
             <span>Meet the Oyetade’s</span>
           </div>
         </div>
-        <div className="image bg-cusimg w-full h-full aspect-auto"></div>
+        <div className="image bg-cusimg w-full h-96 aspect-auto bg-cover bg-no-repeat lg:h-full "></div>
       </div>
     </section>
   );

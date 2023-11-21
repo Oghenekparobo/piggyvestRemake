@@ -16,24 +16,24 @@ const Layout = () => {
       <main className="pt-10">
         <section className="align-element">
           <Hero />
-          {/* <Security /> */}
-          {/* <Savings /> */}
-          {/* <Investment /> */}
+          <Security />
+          <Savings />
+          <Investment />
         </section>
         <section>
-          {/* <Saver /> */}
+          <Saver />
         </section>
         <section className="align-element ">
-          {/* <Customers /> */}
+          <Customers />
         </section>
         <section className="bg-custom3 mt-20">
           <div className="align-element">
-            {/* <Featured /> */}
+            <Featured />
           </div>
         </section>
         <footer className="mt-20">
           <div className="align-element">
-            {/* <Footer /> */}
+            <Footer />
           </div>
         </footer>
       </main>

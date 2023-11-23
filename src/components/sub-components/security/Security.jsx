@@ -4,7 +4,7 @@ import right from "../../../assets/security/ArrowRight.svg";
 
 const Security = () => {
   return (
-    <section className="py-10 flex items-center justify-center">
+    <section className="py-20 flex items-center justify-center">
       <div className="flex flex-col items-center space-y-8 lg:py-10  lg:space-y-0 lg:space-x-10 lg:flex-row">
         <div className="img">
           <img src={shield} alt="shield done" />

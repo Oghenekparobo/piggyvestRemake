@@ -10,7 +10,7 @@ const Image = () => {
   return (
     <>
       <div className="image relative flex items-center my-14 hidden md:flex lg:my-0">
-        <div className="relative">
+        <div className="relative enlarge">
           {/* rectangle */}
           <img src={rectangle} alt="rectangle(long)-img" className="" />
           {/* left */}
@@ -23,7 +23,7 @@ const Image = () => {
           <img
             src={rent}
             alt="rent-svg"
-            className="absolute top-40 -left-32 z-10"
+            className="absolute top-40 -left-32 z-10 up__down"
           />
           <img
             src={round_circle}
@@ -40,20 +40,19 @@ const Image = () => {
           <img
             src={investify}
             alt="investify-svg"
-            className="absolute bottom-32 -right-20 z-5"
+            className="absolute bottom-32 -right-20 z-5 up__down "
           />
         </div>
       </div>
       <div className="image flex items-center justify-center my-14 flex w-full md:hidden lg:my-0">
         <div className="relative">
-       
           {/* middle */}
           <img
             src={rent}
             alt="rent-svg"
             className="absolute top-40 -left-10 w-[8rem] z-10"
           />
-        
+
           {/* fine girl */}
           <img src={lady} alt="fine girl w-2 w-[8rem] img" />
           {/* bottom */}

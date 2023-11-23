@@ -2,13 +2,141 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer components {
-    .align-element{
-        @apply mx-auto max-w-[77rem] px-8
-    }
+  .align-element {
+    @apply mx-auto max-w-[77rem] px-8;
+  }
 }
 
-body{
-    font-family: sans-serif;
+body {
+  font-family: sans-serif;
 }
+
+/* animations */
+/* animation for the hero section  */
+
+/* bouncing animation */
+
+.up__down {
+  animation: bounce 5s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-10px);
+  }
+
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+.enlarge {
+  animation: enlarge_hero 1.5s ease-out forwards;
+  transform-origin: center bottom;
+  opacity: 0;
+  visibility: hidden;
+}
+
+@keyframes enlarge_hero {
+  0%,
+  20%,
+  50%,
+  80% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(1.2);
+  }
+
+  60% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+/* animation to show text */
+.back__up {
+  animation: backup_aniamtion 1.8s ease-out;
+}
+
+.back__up-slow {
+  animation: backup_aniamtion-slow 3s ease-out;
+}
+
+@keyframes backup_aniamtion-slow {
+  0%,
+  80% {
+    transform: translateY(25px);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.back__up_two {
+  animation: backup_aniamtion 2.8s ease-out;
+}
+
+@keyframes backup_aniamtion {
+  0%,
+  80% {
+    transform: translateY(25px);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+/* animation for saver section */
+.saver_heading {
+  animation: saver_heading-animation 2s ease-out;
+}
+
+@keyframes saver_heading-animation {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  20% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateY(15%);
+  }
+
+  80% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+

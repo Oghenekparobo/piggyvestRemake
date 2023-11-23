@@ -4,14 +4,15 @@ import google from "../../../assets/hero/google.svg";
 import Image from "./Image";
 
 const Hero = () => {
+  
   return (
     <section className="mt-36 flex flex-col justify-center items-center lg:justify-between lg:flex-row">
       {/* content */}
       <div className="content flex flex-col justify-center space-y-8">
-        <h1 className="text-custom max-w-md font-bold text-2xl md:text-5xl lg:text-6xl">
+        <h1 className="text-custom max-w-md font-bold text-2xl back__up md:text-5xl lg:text-6xl ">
           The Better Way to Save & Invest
         </h1>
-        <p className="text-custom2 max-w-sm text-sm leading-[2rem] md:text-xl">
+        <p className="text-custom2 max-w-sm text-sm leading-[2rem] back__up_two md:text-xl">
           PiggyVest helps over 4 million customers achieve their financial goals
           by helping them save and invest with ease.
         </p>
